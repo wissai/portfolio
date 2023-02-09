@@ -1,0 +1,126 @@
+body {
+    background-color: #fcfcfc;
+    }
+
+.page_container{
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 3fr 6fr 3fr;
+    margin: auto;
+    max-width: 1300px;
+    font-family: "Montserrat";
+  }
+
+
+.header_spacer{
+    background-color: aquamarine;
+    height: 0px;
+    min-width: 20%;
+}
+
+.sticky_wrapper {
+    position: sticky;
+    top: 10vh;
+    max-height: 95vh;
+    
+}
+
+.h_logo {
+    margin-left: -400px;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px; 
+}
+
+h1 {
+    margin-left: -500px;
+    text-align: right;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: -4.5px;           
+}
+
+h2 {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    letter-spacing: -0.6px;
+}
+
+h3 {
+    font-size: 11px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+h4 {
+    font-size: 11px;
+    font-weight: 200;
+}
+ 
+p {
+    font-size: 12px;
+    text-align: justify;
+    font-family: "Vollkorn";
+    line-height: 20px;
+}
+
+.p_ref {
+    font-size: 10px;
+}
+
+.p_imagecaption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    margin-top: -20px; 
+    margin-bottom: 30px;
+    background-color: rgb(236, 236, 236);
+}
+
+.keywords {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11px;
+}
+
+.project_img_wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 11vh;
+}
+
+.project_img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.logo_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /*background-color: aqua;*/
+    width: 100%;
+    font-size: 25px;
+}
+
+.interactive_logo_texture {
+    width: 100%;
+    /*background-color: blue;*/
+}
+
+.button_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;    
+}
+
+.button_wrapper:hover{
+    color: red;
+}
+
